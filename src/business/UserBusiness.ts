@@ -1,7 +1,7 @@
 import { UserDatabase } from "../database/UserDatabase"
 import { regexEmail, regexPassword, TokenPayload, USER_ROLES } from "../types"
 import { User } from "../models/User"
-import { GetUsersInput, GetUsersOutput, LoginInput, LoginOutput, SignupInput, SignupOutput } from "../dtos/UserDTO"
+import { GetUsersInput, GetUsersOutput, LoginInput, LoginOutput, SignupInput, SignupOutput } from "../dtos/userDTO"
 import { BadRequestError } from "../errors/BadRequestError"
 import { ForbiddenError } from "../errors/ForbiddenError"
 import { NotFoundError } from "../errors/NotFoundError"
