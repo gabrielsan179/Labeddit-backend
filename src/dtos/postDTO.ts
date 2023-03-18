@@ -1,8 +1,16 @@
-import { PostModel } from "../types"
+
+import { PostIdModel, PostModel,  } from "../types"
 
 export interface GetPostsInput {
     token: string | undefined
 }
+
+export interface GetPostByIdInput {
+    id: string,
+    token: string | undefined
+}
+
+export type GetPostByIdOutput =  PostIdModel
 
 export type GetPostsOutput = PostModel[]
 

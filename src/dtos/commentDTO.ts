@@ -8,6 +8,7 @@ export type GetCommentsOutput = CommentModel[]
 
 export interface CreateCommentInput {
     token: string | undefined,
+    idPost: string,
     content: unknown
 }
 
