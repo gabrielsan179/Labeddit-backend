@@ -50,6 +50,10 @@ export interface PostModel {
     }
 }
 
+export interface PostIdModel extends PostModel {
+    allComments: CommentModel[]
+}
+
 export interface CommentDB{
     id: string,
     creator_id: string,

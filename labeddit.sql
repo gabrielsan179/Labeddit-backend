@@ -1,4 +1,3 @@
--- Active: 1678286043714@@127.0.0.1@3306
 DROP TABLE users;
 
 DROP TABLE posts;
